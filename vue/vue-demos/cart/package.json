@@ -1,7 +1,7 @@
 {
   "name": "cart",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "购物车demo",
   "author": "Hongyan Fan <funhongyan@icloud.com>",
   "private": true,
   "scripts": {
