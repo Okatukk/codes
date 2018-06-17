@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BubbleSort</title>
+</head>
+<body>
+<script>
+  const bubbleSort = (arr) => {
+    const length= arr.length;
+    for (let i = 0; i<length; i++){ //控制循环次数
+      for(let j = i+1; j<length-1; j++){ //进行迭代循环比较
+        if(arr[j] > arr[j+1]){
+          let swap = arr[j];
+          arr[j] = arr[j+1];
+          arr[j+1] = swap;
+        }
+      }
+    }
+  };
+  let a = [1999, 1, 3, 8766];
+  let b = bubbleSort(a);
+  console.log(b);
+</script>
+</body>
+</html>
